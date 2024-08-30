@@ -239,4 +239,26 @@ h1 {
 .footer-links a:hover {
     text-decoration: underline;
 }
+.nav-menu a, .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #ff66b2;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+}
+
+.nav-menu a:hover, .footer-links a:hover {
+    background-color: #ff3399;
+    transform: scale(1.05);
+}
+
+.nav-menu i, .footer-links i {
+    margin-right: 8px;
+}
+
 
